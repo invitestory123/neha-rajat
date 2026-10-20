@@ -5,10 +5,14 @@
 
 window.WEDDING_DATA = {
   couple: {
-    groom: "Dr. Rajat Jain",
-    bride: "Dr. Neha Goyal",
+    groom: "Rajat",
+    bride: "Neha",
+    groomFull: "Dr. Rajat Jain",
+    brideFull: "Dr. Neha Goyal",
+    introGroom: "Rajat",
+    introBride: "Neha",
     monogram: "N & R",
-    tagline: "Two doctors, two kindred souls, united in love and lifelong companionship",
+    tagline: "Two kindred souls, united in love and lifelong companionship",
   },
 
   family: {
@@ -34,7 +38,7 @@ window.WEDDING_DATA = {
       niecesTitle: "Loving Nieces",
       nieces: [
         "Samaira Goyal",
-        "Poori Goyal"
+        "Poorvi Goyal"
       ]
     }
   },
@@ -42,7 +46,7 @@ window.WEDDING_DATA = {
   wedding: {
     dateLabel: "25 · 26 · 11 · 2026",
     timePlace: "Patkote, Uttarakhand · November 2026",
-    dateISO: "2026-11-25T10:00:00+05:30",
+    dateISO: "2026-11-25T13:00:00+05:30",
     quote: "“Where two souls meet, the lotus blooms — and every path becomes a garden.”",
     footerDate: "25 & 26 November 2026 · Patkote, Uttarakhand",
     hashtag: "#NehaWedsRajat",
@@ -56,32 +60,12 @@ window.WEDDING_DATA = {
 
   events: [
     {
-      name: "Welcome & Check-In",
-      date: "25 November 2026",
-      time: "10:00 AM Onwards",
-      place: "Reception Area, Club Mahindra Resort",
-      note: "Guest check-ins, celebratory Dhol beats, and refreshing welcome drinks.",
-      start: "2026-11-25T10:00:00+05:30",
-      end: "2026-11-25T12:00:00+05:30",
-      slug: "welcome-checkin",
-    },
-    {
-      name: "Bhaat Ceremony (Groom Side)",
-      date: "25 November 2026",
-      time: "11:30 AM",
-      place: "Resort Lawns",
-      note: "Traditional Groom Side Bhaat rituals and maternal family blessings.",
-      start: "2026-11-25T11:30:00+05:30",
-      end: "2026-11-25T13:00:00+05:30",
-      slug: "bhaat-groom",
-    },
-    {
       name: "Haldi Celebration",
       date: "25 November 2026",
-      time: "12:30 PM Onwards",
+      time: "1:00 PM Onwards",
       place: "Poolside",
-      note: "Couple shoot (12:30 PM), Guest arrival (1:00 PM), Grand couple entry with color guns & balloons (1:30 PM), Dance & games (2:00 PM), followed by Haldi ceremony & lunch (3:00 PM).",
-      start: "2026-11-25T12:30:00+05:30",
+      note: "",
+      start: "2026-11-25T13:00:00+05:30",
       end: "2026-11-25T16:00:00+05:30",
       slug: "haldi-ceremony",
     },
@@ -90,47 +74,27 @@ window.WEDDING_DATA = {
       date: "25 November 2026",
       time: "7:30 PM Onwards",
       place: "Blossom 1 & Indoors",
-      note: "Couple shoot (7:30 PM), Couple entry with music (8:00 PM), Ring Ceremony on stage (8:30 PM), Performances (8:45 PM), Dance floor opens (9:45 PM) & Indoor After Party (10:00 PM).",
+      note: "",
       start: "2026-11-25T19:30:00+05:30",
       end: "2026-11-26T01:00:00+05:30",
       slug: "sangeet-ring-ceremony",
-    },
-    {
-      name: "Morning Breakfast",
-      date: "26 November 2026",
-      time: "7:00 AM – 10:00 AM",
-      place: "Restaurant",
-      note: "Wholesome morning breakfast to power up for the auspicious wedding day.",
-      start: "2026-11-26T07:00:00+05:30",
-      end: "2026-11-26T10:00:00+05:30",
-      slug: "breakfast-day2",
     },
     {
       name: "Bhaat Ceremony (Bride Side)",
       date: "26 November 2026",
       time: "10:30 AM",
       place: "Banquet Hall",
-      note: "Bride Side Bhaat rituals and auspicious maternal family blessings.",
+      note: "",
       start: "2026-11-26T10:30:00+05:30",
       end: "2026-11-26T11:45:00+05:30",
       slug: "bhaat-bride",
-    },
-    {
-      name: "Sehra Bandhi & Safa Bandhi",
-      date: "26 November 2026",
-      time: "11:30 AM",
-      place: "Reception Lounge",
-      note: "Groom's royal Sehra Bandhi and traditional Safa Bandhi for guests.",
-      start: "2026-11-26T11:30:00+05:30",
-      end: "2026-11-26T12:00:00+05:30",
-      slug: "sehra-safa-bandhi",
     },
     {
       name: "Baraat & Wedding Pheras",
       date: "26 November 2026",
       time: "12:00 PM Onwards",
       place: "Blossom 2",
-      note: "Baraat starts (12:00 PM), Ribbon cutting & welcome (1:30 PM), Groom entry (2:00 PM), Bride entry under dulhan chadar (2:15 PM), Varmala & lunch (2:30 PM), and sacred Pheras (3:30 PM).",
+      note: "",
       start: "2026-11-26T12:00:00+05:30",
       end: "2026-11-26T17:30:00+05:30",
       slug: "baraat-wedding-pheras",
@@ -140,7 +104,7 @@ window.WEDDING_DATA = {
       date: "26 November 2026",
       time: "7:00 PM Onwards",
       place: "Blossom 2 & Indoors",
-      note: "Couple shoot & guest arrival (7:00 PM), Grand couple entry (8:00 PM), Cake cutting (8:15 PM), Live edit video & Live Band (8:30 PM), followed by late-night After Party indoors (10:00 PM).",
+      note: "",
       start: "2026-11-26T19:00:00+05:30",
       end: "2026-11-27T01:00:00+05:30",
       slug: "reception-night",
@@ -150,7 +114,7 @@ window.WEDDING_DATA = {
       date: "27 November 2026",
       time: "9:00 AM – 10:00 AM",
       place: "Restaurant",
-      note: "Morning breakfast at 9:00 AM followed by guest checkout at 10:00 AM with sweet memories for a lifetime.",
+      note: "",
       start: "2026-11-27T09:00:00+05:30",
       end: "2026-11-27T11:00:00+05:30",
       slug: "checkout-farewell",
@@ -164,7 +128,7 @@ window.WEDDING_DATA = {
       text: "Between busy hospital rounds and shared clinical passions, two dedicated doctors crossed paths. What began as casual conversations quickly blossomed into an inseparable connection.",
       photo: {
         src: "./editable/assets/story-first-meeting.jpg",
-        alt: "Dr. Rajat and Dr. Neha sharing a warm smile",
+        alt: "Rajat and Neha sharing a warm smile",
         placement: "right",
       },
     },
@@ -179,14 +143,14 @@ window.WEDDING_DATA = {
       text: "Surrounded by mountain breezes and tranquility, a heartfelt question was asked — a lifetime promise of care, deep understanding, laughter, and unconditional companionship.",
       photo: {
         src: "./editable/assets/story-question.jpg",
-        alt: "A timeless proposal overlooking scenic hills",
+        alt: "A timeless proposal holding hands with the engagement ring",
         placement: "below",
       },
     },
     {
       year: "Forever Begins",
       title: "Two Families, Seven Sacred Vows",
-      text: "With the loving blessings of their parents and family, Dr. Neha and Dr. Rajat step forward hand-in-hand into a lifelong journey of mutual love, devotion, and shared dreams.",
+      text: "With the loving blessings of their parents and family, Neha and Rajat step forward hand-in-hand into a lifelong journey of mutual love, devotion, and shared dreams.",
       photo: {
         src: "./editable/assets/story-beginning.jpg",
         alt: "Ceremonial steps into a blessed future",
@@ -210,5 +174,6 @@ window.WEDDING_DATA = {
     storyBeginning: "./editable/assets/story-beginning.jpg",
     openerVideo: "./editable/assets/openr.mp4",
     lotusVideo: "./editable/assets/lotus.mp4",
+    bgMusic: "./editable/assets/bg-music.mp3",
   },
 };
