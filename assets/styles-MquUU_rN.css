@@ -76,3 +76,215 @@
   background-color: rgba(28, 10, 8, 0.8) !important;
   border-color: rgba(247, 213, 127, 0.4) !important;
 }
+
+/* =========================================================
+   LUXURY MULTI-FONT TYPOGRAPHY SYSTEM
+   Harmonious pairing of Cinzel (royal palace serif),
+   Playfair Display (romantic serif), Marcellus (warm classical body),
+   and Montserrat (crisp high-fashion luxury sans)
+   ========================================================= */
+:root {
+  --font-serif: "Marcellus", "Cormorant Garamond", Georgia, serif;
+  --font-display: "Cinzel", "Marcellus", "Cormorant Garamond", serif;
+  --font-royal: "Playfair Display", "Cormorant Garamond", Georgia, serif;
+  --font-script: "Great Vibes", cursive;
+  --font-sans: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-body: "Marcellus", Georgia, serif;
+}
+
+body {
+  font-family: var(--font-body) !important;
+}
+
+/* 1. Hero Section Typography */
+[data-section="hero"] p.uppercase {
+  font-family: var(--font-sans) !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.38em !important;
+  font-size: 0.72rem !important;
+  text-transform: uppercase !important;
+}
+
+[data-section="hero"] h1 {
+  font-family: var(--font-royal) !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.03em !important;
+}
+
+[data-section="hero"] h1 span {
+  font-family: var(--font-script) !important;
+  font-weight: normal !important;
+  font-size: 1.35em !important;
+  vertical-align: middle !important;
+  margin: 0 0.3em !important;
+}
+
+/* Hero Scratch / Date Box */
+[data-section="hero"] .rounded-2xl {
+  font-family: var(--font-display) !important;
+}
+
+[data-section="hero"] .rounded-2xl .font-display {
+  font-family: var(--font-display) !important;
+  letter-spacing: 0.16em !important;
+  font-weight: 600 !important;
+}
+
+[data-section="hero"] .rounded-2xl p.uppercase {
+  font-family: var(--font-sans) !important;
+  letter-spacing: 0.28em !important;
+  font-size: 0.62rem !important;
+  font-weight: 500 !important;
+}
+
+/* 2. Blessing & Monogram Section */
+[data-section="blessing"] h2 {
+  font-family: var(--font-display) !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.04em !important;
+}
+
+/* Family Blessings Cards */
+[data-section="blessing"] h3 {
+  font-family: var(--font-display) !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.08em !important;
+}
+
+[data-section="blessing"] h4,
+[data-section="blessing"] .text-xs.uppercase,
+[data-section="blessing"] .text-\[0\.6rem\].uppercase,
+[data-section="blessing"] .text-\[0\.65rem\].uppercase,
+[data-section="blessing"] .text-\[0\.7rem\].uppercase {
+  font-family: var(--font-sans) !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.22em !important;
+  font-size: 0.7rem !important;
+  text-transform: uppercase !important;
+  color: #f7d57f !important;
+}
+
+[data-section="blessing"] .text-foreground\/90,
+[data-section="blessing"] .text-foreground\/85 {
+  font-family: var(--font-body) !important;
+  font-size: 1.05rem !important;
+  letter-spacing: 0.02em !important;
+}
+
+/* 3. Section Titles & Eyebrows Across the Entire Page */
+p.uppercase.tracking-\[0\.4em\],
+p.uppercase.tracking-\[0\.45em\],
+p.uppercase.tracking-\[0\.5em\],
+p.uppercase.tracking-\[0\.25em\],
+p.uppercase.tracking-\[0\.3em\],
+.eyebrow {
+  font-family: var(--font-sans) !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.28em !important;
+  text-transform: uppercase !important;
+}
+
+h2.font-display {
+  font-family: var(--font-display) !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.03em !important;
+}
+
+/* 4. Events & Festivities (Celebrations) */
+[data-section="celebrations"] h3,
+.paper h3 {
+  font-family: var(--font-display) !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.04em !important;
+  font-size: 1.75rem !important;
+}
+
+/* Event Timings & Dates */
+[data-section="celebrations"] p.tracking-\[0\.2em\],
+.paper p.tracking-\[0\.2em\] {
+  font-family: var(--font-sans) !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.15em !important;
+  font-size: 0.82rem !important;
+  text-transform: uppercase !important;
+  color: #fff2ce !important;
+}
+
+/* Event Place */
+[data-section="celebrations"] p.text-foreground\/85,
+.paper p.text-foreground\/85 {
+  font-family: var(--font-body) !important;
+  font-size: 0.98rem !important;
+  letter-spacing: 0.02em !important;
+}
+
+/* Event Note */
+[data-section="celebrations"] p.text-muted-foreground,
+.paper p.text-muted-foreground {
+  font-family: var(--font-body) !important;
+  font-size: 0.92rem !important;
+  line-height: 1.6 !important;
+}
+
+/* 5. Our Journey / Love Story Section */
+[data-section="story"] h3 {
+  font-family: var(--font-display) !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.03em !important;
+}
+
+[data-section="story"] p {
+  font-family: var(--font-body) !important;
+  font-size: 1.02rem !important;
+  line-height: 1.75 !important;
+}
+
+[data-section="story"] figcaption,
+[data-section="story"] .tracking-\[0\.3em\],
+[data-section="story"] .tracking-\[0\.25em\] {
+  font-family: var(--font-sans) !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.2em !important;
+  font-size: 0.68rem !important;
+  text-transform: uppercase !important;
+}
+
+/* 6. Countdown Section */
+[data-section="countdown"] .font-display.text-5xl,
+[data-section="countdown"] .font-display.text-6xl,
+[data-section="countdown"] .font-display.text-7xl {
+  font-family: var(--font-display) !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.05em !important;
+}
+
+[data-section="countdown"] .text-\[0\.6rem\].uppercase,
+[data-section="countdown"] .text-\[0\.65rem\].uppercase,
+[data-section="countdown"] .text-xs.uppercase {
+  font-family: var(--font-sans) !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.25em !important;
+  font-size: 0.68rem !important;
+  text-transform: uppercase !important;
+  color: #f7d57f !important;
+}
+
+/* 7. Venue Section & Buttons */
+[data-section="venue"] h3 {
+  font-family: var(--font-display) !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.04em !important;
+}
+
+[data-section="venue"] p {
+  font-family: var(--font-body) !important;
+  font-size: 1rem !important;
+  line-height: 1.7 !important;
+}
+
+button, a.text-\[0\.6rem\], a.uppercase {
+  font-family: var(--font-sans) !important;
+  letter-spacing: 0.2em !important;
+  font-weight: 600 !important;
+}
+

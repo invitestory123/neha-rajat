@@ -46,7 +46,7 @@ window.WEDDING_DATA = {
   wedding: {
     dateLabel: "25 · 26 · 11 · 2026",
     timePlace: "Patkote, Uttarakhand · November 2026",
-    dateISO: "2026-11-25T13:00:00+05:30",
+    dateISO: "2026-11-25T10:00:00+05:30",
     quote: "“Where two souls meet, the lotus blooms — and every path becomes a garden.”",
     footerDate: "25 & 26 November 2026 · Patkote, Uttarakhand",
     hashtag: "#NehaWedsRajat",
@@ -59,6 +59,16 @@ window.WEDDING_DATA = {
   },
 
   events: [
+    {
+      name: "Welcome & Check-In",
+      date: "25 November 2026",
+      time: "10:00 AM Onwards",
+      place: "Reception Area, Club Mahindra Resort",
+      note: "",
+      start: "2026-11-25T10:00:00+05:30",
+      end: "2026-11-25T12:00:00+05:30",
+      slug: "welcome-checkin",
+    },
     {
       name: "Haldi Celebration",
       date: "25 November 2026",
@@ -143,7 +153,7 @@ window.WEDDING_DATA = {
       text: "Surrounded by mountain breezes and tranquility, a heartfelt question was asked — a lifetime promise of care, deep understanding, laughter, and unconditional companionship.",
       photo: {
         src: "./editable/assets/story-question.jpg",
-        alt: "A timeless proposal holding hands with the engagement ring",
+        alt: "Dr. Rajat and Dr. Neha sharing a timeless celebration moment",
         placement: "below",
       },
     },

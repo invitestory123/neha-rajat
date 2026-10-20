@@ -35,16 +35,17 @@ Edit `family` in `editable/wedding-data.js`:
 Edit `wedding` in `editable/wedding-data.js`:
 - `dateLabel`: Formatted short date string (`"25 · 26 · 11 · 2026"`)
 - `timePlace`: Subheading label (`"Patkote, Uttarakhand · November 2026"`)
-- `dateISO`: Event timestamp in ISO 8601 (`"2026-11-25T13:00:00+05:30"`). Directly drives the live countdown timer.
+- `dateISO`: Event timestamp in ISO 8601 (`"2026-11-25T10:00:00+05:30"`). Directly drives the live countdown timer.
 
-### Events & Ceremonies (6 Events)
+### Events & Ceremonies (7 Events)
 Edit `events` array in `editable/wedding-data.js`:
-1. Haldi Celebration (25 Nov, 1:00 PM Onwards · Poolside)
-2. Sangeet & Ring Ceremony (25 Nov, 7:30 PM Onwards · Blossom 1 & Indoors)
-3. Bhaat Ceremony - Bride Side (26 Nov, 10:30 AM · Banquet Hall)
-4. Baraat & Wedding Pheras (26 Nov, 12:00 PM Onwards · Blossom 2)
-5. Grand Reception & Musical Night (26 Nov, 7:00 PM Onwards · Blossom 2 & Indoors)
-6. Farewell Breakfast & Checkout (27 Nov, 9:00 AM – 10:00 AM · Restaurant)
+1. Welcome & Check-In (25 Nov, 10:00 AM Onwards · Reception Area, Club Mahindra Resort)
+2. Haldi Celebration (25 Nov, 1:00 PM Onwards · Poolside)
+3. Sangeet & Ring Ceremony (25 Nov, 7:30 PM Onwards · Blossom 1 & Indoors)
+4. Bhaat Ceremony - Bride Side (26 Nov, 10:30 AM · Banquet Hall)
+5. Baraat & Wedding Pheras (26 Nov, 12:00 PM Onwards · Blossom 2)
+6. Grand Reception & Musical Night (26 Nov, 7:00 PM Onwards · Blossom 2 & Indoors)
+7. Farewell Breakfast & Checkout (27 Nov, 9:00 AM – 10:00 AM · Restaurant)
 
 ### Venue & Map
 Edit `venue` in `editable/wedding-data.js`:
