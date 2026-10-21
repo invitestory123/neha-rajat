@@ -5,12 +5,12 @@
 
 window.WEDDING_DATA = {
   couple: {
-    groom: "Rajat",
-    bride: "Neha",
+    groom: "Dr. Rajat Jain",
+    bride: "Dr. Neha Goyal",
     groomFull: "Dr. Rajat Jain",
     brideFull: "Dr. Neha Goyal",
-    introGroom: "Rajat",
-    introBride: "Neha",
+    introGroom: "Dr. Rajat Jain",
+    introBride: "Dr. Neha Goyal",
     monogram: "N & R",
     tagline: "Two kindred souls, united in love and lifelong companionship",
   },

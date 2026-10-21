@@ -11,8 +11,8 @@ All routine customer edits are configured in:
 
 ### Couple Details
 Edit `couple` in `editable/wedding-data.js`:
-- `groom`: Rajat (Introductory page)
-- `bride`: Neha (Introductory page)
+- `groom`: Dr. Rajat Jain (Hero & formal cards)
+- `bride`: Dr. Neha Goyal (Hero & formal cards)
 - `groomFull`: Dr. Rajat Jain (Family blessings / formal cards)
 - `brideFull`: Dr. Neha Goyal (Family blessings / formal cards)
 - `monogram`: Couple initials or monogram (e.g. `"N & R"`)

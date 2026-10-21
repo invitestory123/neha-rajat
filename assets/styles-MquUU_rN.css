@@ -105,18 +105,27 @@ body {
   text-transform: uppercase !important;
 }
 
-[data-section="hero"] h1 {
-  font-family: var(--font-royal) !important;
-  font-weight: 600 !important;
-  letter-spacing: 0.03em !important;
+[data-section="hero"] h1,
+.hero-couple-names {
+  font-family: "Cormorant Garamond", "Playfair Display", Georgia, serif !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.02em !important;
+  line-height: 1.25 !important;
 }
 
-[data-section="hero"] h1 span {
-  font-family: var(--font-script) !important;
-  font-weight: normal !important;
-  font-size: 1.35em !important;
-  vertical-align: middle !important;
-  margin: 0 0.3em !important;
+[data-section="hero"] h1 span,
+.hero-couple-names span {
+  font-family: inherit !important;
+  margin: 0 !important;
+}
+
+[data-section="hero"] h1 .ampersand,
+[data-section="hero"] h1 .align-middle {
+  font-family: "Cormorant Garamond", Georgia, serif !important;
+  font-style: italic !important;
+  font-weight: 300 !important;
+  margin: 0 0.35rem !important;
+  opacity: 0.9 !important;
 }
 
 /* Hero Scratch / Date Box */
