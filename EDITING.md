@@ -1,6 +1,6 @@
-# Customer Editing Guide — Rajat & Neha Wedding Invitation
+# Customer Editing Guide — Neha & Rajat Wedding Invitation
 
-This template is a luxury destination wedding invitation for Rajat & Neha featuring an interactive lamp-lighting (press-and-hold diya) ritual, animated word-by-word quotes, loving family blessings section, love story timeline with photos, background flute music player, celebration itinerary with .ics calendar downloads, live countdown timer, and embedded Google Maps venue card for Club Mahindra Resort - Patkote, Uttarakhand.
+This template is a luxury destination wedding invitation for Neha & Rajat featuring an interactive lamp-lighting (press-and-hold diya) ritual, animated word-by-word quotes, loving family blessings section, love story timeline with photos, background flute music player, celebration itinerary with .ics calendar downloads, live countdown timer, and embedded Google Maps venue card for Club Mahindra Resort - Patkote, Uttarakhand.
 
 ---
 
@@ -11,25 +11,25 @@ All routine customer edits are configured in:
 
 ### Couple Details
 Edit `couple` in `editable/wedding-data.js`:
-- `groom`: Rajat (Hero section)
 - `bride`: Neha (Hero section)
-- `groomFull`: Dr. Rajat Jain (Family blessings / formal cards)
+- `groom`: Rajat (Hero section)
 - `brideFull`: Dr. Neha Goyal (Family blessings / formal cards)
+- `groomFull`: Dr. Rajat Jain (Family blessings / formal cards)
 - `monogram`: Couple initials or monogram (e.g. `"N & R"`)
 - `tagline`: Tagline subtitle
 
 ### Family & Blessings
 Edit `family` in `editable/wedding-data.js`:
-- `groom`:
-  - `parents`: Mrs. Reena Jain & Mr. Pradeep Jain
-  - `father`: Mr. Pradeep Jain
-  - `mother`: Mrs. Reena Jain
 - `bride`:
   - `parents`: Mrs. Poonam Goyal & Mr. Lalit Goyal
   - `father`: Mr. Lalit Goyal
   - `mother`: Mrs. Poonam Goyal
   - `siblings`: Ankit Goyal & Charu Goyal, Pulkit Goyal & Komal Goyal
   - `nieces`: Samaira Goyal, Poorvi Goyal
+- `groom`:
+  - `parents`: Mrs. Reena Jain & Mr. Pradeep Jain
+  - `father`: Mr. Pradeep Jain
+  - `mother`: Mrs. Reena Jain
 
 ### Wedding Date & Hero
 Edit `wedding` in `editable/wedding-data.js`:

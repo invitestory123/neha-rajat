@@ -5,25 +5,17 @@
 
 window.WEDDING_DATA = {
   couple: {
-    groom: "Rajat",
     bride: "Neha",
-    groomFull: "Dr. Rajat Jain",
+    groom: "Rajat",
     brideFull: "Dr. Neha Goyal",
-    introGroom: "Rajat",
+    groomFull: "Dr. Rajat Jain",
     introBride: "Neha",
+    introGroom: "Rajat",
     monogram: "N & R",
     tagline: "Two kindred souls, united in love and lifelong companionship",
   },
 
   family: {
-    groom: {
-      title: "Groom's Family",
-      parentsTitle: "Loving Parents",
-      parents: "Mrs. Reena Jain & Mr. Pradeep Jain",
-      father: "Mr. Pradeep Jain",
-      mother: "Mrs. Reena Jain",
-      blessings: "With warm blessings of elders and the entire Jain family"
-    },
     bride: {
       title: "Bride's Family",
       parentsTitle: "Loving Parents",
@@ -40,6 +32,14 @@ window.WEDDING_DATA = {
         "Samaira Goyal",
         "Poorvi Goyal"
       ]
+    },
+    groom: {
+      title: "Groom's Family",
+      parentsTitle: "Loving Parents",
+      parents: "Mrs. Reena Jain & Mr. Pradeep Jain",
+      father: "Mr. Pradeep Jain",
+      mother: "Mrs. Reena Jain",
+      blessings: "With warm blessings of elders and the entire Jain family"
     }
   },
 
@@ -138,7 +138,7 @@ window.WEDDING_DATA = {
       text: "Between busy hospital rounds and shared clinical passions, two dedicated doctors crossed paths. What began as casual conversations quickly blossomed into an inseparable connection.",
       photo: {
         src: "./editable/assets/story-first-meeting.jpg",
-        alt: "Rajat and Neha sharing a warm smile",
+        alt: "Neha and Rajat sharing a warm smile",
         placement: "right",
       },
     },
@@ -153,7 +153,7 @@ window.WEDDING_DATA = {
       text: "Surrounded by mountain breezes and tranquility, a heartfelt question was asked — a lifetime promise of care, deep understanding, laughter, and unconditional companionship.",
       photo: {
         src: "./editable/assets/story-question.jpg",
-        alt: "Dr. Rajat and Dr. Neha sharing a timeless celebration moment",
+        alt: "Dr. Neha and Dr. Rajat sharing a timeless celebration moment",
         placement: "below",
       },
     },
