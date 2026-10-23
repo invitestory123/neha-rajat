@@ -34,11 +34,13 @@ Edit `verse` and `venue` in `editable/wedding-data.js`:
 - `venue.address`: `"Patkote RF, Mailani Range, Jim Corbett, Nainital, Uttarakhand - 244715"`
 - `venue.mapsQuery`: Location query for Google Maps embed and directions
 
-### Images
+### Images & Media
 Replace files directly in `editable/assets/` or update paths in `editable/wedding-data.js`:
 - Couple portrait: `editable/assets/couple.webp`
 - Palace venue photo: `editable/assets/venue-palace.webp`
 - Ganesha icon: `editable/assets/ganesha.png`
+- Monogram emblem: `editable/assets/monogram.png`
+- Background music: `editable/assets/bg-music.mp3` (configured in `wedding-data.js` under `music.src`)
 
 ---
 
